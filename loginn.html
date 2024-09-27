@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGINN</title>
+    <link rel="stylesheet" href="loginn.css">
+</head>
+<body class="bg-indigo-800">
+    <main class="container">
+        <img src="images/26515 1.png" alt="" class="image-left">
+        <div class="form-container">
+            <img src="images/Group 15.png" alt="" class="logo">
+            <p class="title">Sign in to Quiz App</p>
+            <p class="subtitle">Kindly fill in the following details to get started</p>
+            <div id="error-message" class="error"></div>
+            <form action="" class="form">
+                <label for="name" class="label">Full Name</label><br>
+                <input type="text" id="name" placeholder="Enter your first name" class="input"><br>
+                <label for="email" class="label">Email</label><br>
+                <input type="email" id="email" placeholder="Enter your work email" class="input"><br>
+                <label for="password" class="label">Password</label><br>
+                <input type="password" id="password" placeholder="Enter your Password" class="input"><br>
+                <button type="submit" onclick="signIn(event)" class="submit-btn">Sign In</button>
+            </form>
+        </div>
+    </main>
+    <script src="loginn.js"></script>
+</body>
+</html>
+
